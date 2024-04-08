@@ -179,7 +179,7 @@ Fecha: 08/04/2024
                     font-weight: bold;
                 }
 
-                & .button:hover{
+                & .button:hover {
                     border-right: 5px solid var(--color-azul);
                     border-left: 5px solid var(--color-rojo);
                 }
@@ -189,24 +189,24 @@ Fecha: 08/04/2024
 }
 
 /* SECTION 4 */
-.section--4{
+.section--4 {
     margin: 70px 10px;
 
-    & .article{
+    & .article {
         display: flex;
         flex-direction: column;
 
-        & .h2{
+        & .h2 {
             font-weight: bold;
             font-size: 2.5rem;
         }
 
-        & .p{
+        & .p {
             font-size: 1.9rem;
             font-weight: bold;
         }
 
-        & .container{
+        & .container {
             width: 100%;
             display: flex;
             align-items: center;
@@ -214,27 +214,27 @@ Fecha: 08/04/2024
             padding: 15px 5px;
             border-bottom: 1px solid var(--color-blanco);
 
-            & .div{
-                
-                & .p{
+            & .div {
+
+                & .p {
                     font-weight: normal;
                     font-size: 1.5rem;
                 }
 
-                & .button{
+                & .button {
                     font-size: 1.4rem;
                     padding: 15px 45px;
                     border-radius: 70px;
                 }
 
-                & .button:hover{
+                & .button:hover {
                     border-right: 5px solid var(--color-azul);
                     border-left: 5px solid var(--color-rojo);
                 }
             }
         }
 
-        & .container--41{
+        & .container--41 {
             margin-top: 50px;
             border-top: 1px solid var(--color-blanco);
         }
@@ -244,46 +244,48 @@ Fecha: 08/04/2024
 }
 
 /* SECTION 5 */
-.section--5{
-    & .article{
+.section--5 {
+    & .article {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         margin: 50px 0px;
 
-        & .div{
+        & .div {
             display: flex;
             flex-direction: column;
             align-items: center;
             width: 100%;
             margin: 70px 5px;
 
-            & .h3{
-                font-size: 1.5rem;
+            & .h3 {
+                font-size: 2.1rem;
                 margin: 15px 0px;
             }
 
-            & .h3--52{
-                font-size: 2.1rem;
+            & .h3--52 {
+                font-size: 2.5rem;
             }
 
-            & .p{
+            & .p {
                 font-weight: bold;
+                font-size: 1.5rem;
                 margin: 10px 0px;
             }
 
-            & .button{
-                font-size: 1.13rem;
-                    padding: 13px 25px;
-                    border-radius: 70px;
-                    margin: 10px 0px;
-                }
+            & .button {
+                font-size: 1.5rem;
+                font-weight: bold;
+                padding: 25px 35px;
+                border-radius: 70px;
+                margin: 10px 0px;
+            }
 
-                & .button:hover{
-                    border-right: 5px solid var(--color-azul);
-                    border-left: 5px solid var(--color-rojo);
-                }
+            & .button:hover {
+                border-right: 5px solid var(--color-azul);
+                border-left: 5px solid var(--color-rojo);
+            }
 
         }
 
@@ -291,30 +293,30 @@ Fecha: 08/04/2024
 }
 
 /* FOOTER */
-.footer{
+.footer {
     margin-top: 200px;
 
-    & .div{
+    & .div {
         display: flex;
         justify-content: center;
         align-items: center;
         font-size: 2rem;
         gap: 30px;
-        margin: 10px 0px;
+        margin: 30px 0px;
 
-        & .ul{
+        & .ul {
             display: flex;
             width: 100%;
             align-items: center;
             justify-content: center;
             gap: 35px;
-            font-size: 1.12rem;
+            font-size: 1.15rem;
 
-            & .li{
+            & .li {
                 padding-left: 10px;
             }
 
-            & .li--1{
+            & .li--1 {
                 padding-left: 0px;
                 list-style: none;
             }

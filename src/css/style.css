@@ -10,12 +10,8 @@ Fecha: 08/04/2024
 
 /* VARIABLES */
 :root{
-
     --color-negro: #000000;
     --color-blanco:#f1f1f1;
-
-
-
 }
 
 /* RESET */
@@ -32,6 +28,13 @@ Fecha: 08/04/2024
     letter-spacing: 1.2px;
     line-height: 1.1;
     color: var(--color-blanco);
+
+    & .video{
+        min-width: 100%;
+        top: 0;
+        position: fixed;
+        z-index: -1000;
+    }
 }
 
 /* HEADER */
@@ -64,7 +67,6 @@ Fecha: 08/04/2024
                 list-style: none;
                 padding-left: 15px;
             }
-
         }
 
         & .div--01{
@@ -76,15 +78,76 @@ Fecha: 08/04/2024
             gap: 35px;
             padding-right: 55px;
         }
-
     }
-
 }
 
 /* MAIN */
-/* SECTION 1 */
+/* SECTION GENERAL */
+.section{
+    max-width: 100vw;
+    padding-top: 20px;
+
+    & .article{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 /* SECTION 2 */
+.section--2{
+    .article{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100vw;
+        flex-direction: column;
+        height: fit-content;
+
+        & .container{
+            display: flex;
+            width: 85%;
+            flex-direction: row;
+            justify-content: space-around;
+            padding: 20px;
+            margin: 60px 10px;
+
+            & .div{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                width: 30%;
+                height: 500px;
+
+                & .img{
+                    width: 100%;
+                    height: 80%;
+                }
+    
+                & .h3{
+                    font-size: 1.5rem;
+                    text-align: center;
+                }
+            }            
+        }
+    }
+}
+
 /* SECTION 3 */
+.section--3{
+    & .article{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 4px solid yellowgreen;
+
+        & .container{
+            display: flex;
+            border: 4px solid green;
+        }
+
+    }
+}
 /* SECTION 4 */
 /* SECTION 5 */
 

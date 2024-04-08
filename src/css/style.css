@@ -108,6 +108,8 @@ Fecha: 08/04/2024
 
 /* SECTION 2 */
 .section--2 {
+    margin-top: 70px;
+
     .article {
         display: flex;
         flex-wrap: wrap;
@@ -208,6 +210,11 @@ Fecha: 08/04/2024
                     border-left: 5px solid var(--color-rojo);
                 }
             }
+
+            & .div:hover{
+                scale: 1.2;
+            }
+
         }
     }
 }
@@ -328,6 +335,10 @@ Fecha: 08/04/2024
         gap: 30px;
         margin: 30px 0px;
 
+        & .i:hover{
+            scale: 1.2;
+        }
+
         & .ul {
             display: flex;
             width: 100%;
@@ -340,11 +351,19 @@ Fecha: 08/04/2024
                 padding-left: 10px;
             }
 
+            & .li:hover{
+                    font-size: 1.4rem;
+                    text-decoration: line-through;
+                }
+
             & .li--1 {
                 padding-left: 0px;
                 list-style: none;
             }
+        }
 
+        & .ul:hover{
+            cursor: default;
         }
 
     }

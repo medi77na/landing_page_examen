@@ -12,6 +12,8 @@ Fecha: 08/04/2024
 :root {
     --color-negro: #000000;
     --color-blanco: #f1f1f1;
+    --color-rojo: red;
+    --color-azul: blue;
 }
 
 /* RESET */
@@ -135,6 +137,8 @@ Fecha: 08/04/2024
 
 /* SECTION 3 */
 .section--3 {
+    margin-top: 100px;
+
     & .article {
         display: flex;
         justify-content: center;
@@ -175,8 +179,8 @@ Fecha: 08/04/2024
                 }
 
                 & .button:hover{
-                    border-right: 5px solid blue;
-                    border-left: 5px solid red;
+                    border-right: 5px solid var(--color-azul);
+                    border-left: 5px solid var(--color-rojo);
                 }
             }
         }
@@ -185,13 +189,11 @@ Fecha: 08/04/2024
 
 /* SECTION 4 */
 .section--4{
-
     margin: 70px 10px;
 
     & .article{
         display: flex;
         flex-direction: column;
-        border: 4px solid blueviolet;
 
         & .h2{
             font-weight: bold;
@@ -208,7 +210,7 @@ Fecha: 08/04/2024
             display: flex;
             align-items: center;
             justify-content: space-between;
-            border: 4px solid greenyellow;
+            padding: 23px 5px;
 
             & .div{
                 
@@ -216,7 +218,22 @@ Fecha: 08/04/2024
                     font-weight: normal;
                     font-size: 1.5rem;
                 }
+
+                & .button{
+                    font-size: 1.13rem;
+                    padding: 7px 25px;
+                    border-radius: 70px;
+                }
+
+                & .button:hover{
+                    border-right: 5px solid var(--color-azul);
+                    border-left: 5px solid var(--color-rojo);
+                }
             }
+        }
+
+        & .container--41{
+            margin-top: 50px;
         }
 
 
